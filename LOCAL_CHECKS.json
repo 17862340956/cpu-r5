@@ -1,0 +1,12 @@
+{
+  "revision": "qilin-r5-20261028",
+  "kernel_build": "NOT RUN locally; pending DDK Actions",
+  "kernel_activation": "NOT performed",
+  "python_tests": "19 passed with pyelftools;18 passed and1 conditional skip without it",
+  "android_sh_syntax": "passed final delivered SH",
+  "android_isolated_fixture": "passed mocked full load, original regular-file FD, replacement FD,1/7/4096 byte chunks,remainder and EOF;not kernel procfs proof",
+  "existing_callbacks": "four proven r4 bodies byte-identical",
+  "proc_layout_evidence": "target BTF bd86b36efe69b31db35774b33225de222b9716aa40f7089f7efe89741d46fb3a; public DDK inode752/proc_ops96 verified from r4 actual KO DWARF",
+  "review": "two independent read-only reviews; private runtime pointer/page permissions remain for device validation",
+  "source_sha256": "13204dcf1fffad40d2e75bcf0e9c5c79c2169ec1c13c206b6bcc75beba86bd70"
+}
